@@ -16,6 +16,7 @@ public class xmldom {
 
             // Parsear el archivo XML
             Document document = builder.parse(new File("ej01_2.xml"));
+            //System.out.println(document);
 
             // Normalizar el documento XML
             document.getDocumentElement().normalize();
@@ -34,6 +35,8 @@ public class xmldom {
                     System.out.println("Título: " + eElement.getTextContent());
                 }
             }
+
+            
         } catch (Exception e) {
             e.printStackTrace();
         }
