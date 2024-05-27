@@ -23,4 +23,3 @@ def print_elements(node, indent=""):
 
 # Imprimir los elementos y atributos comenzando desde la raíz
 print_elements(root)
-
